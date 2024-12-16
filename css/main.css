@@ -1,0 +1,6 @@
+@import "./normalize.css";
+@import "./components/main.css";
+@import "./components/navigation.css";
+@import "./components/sidebar.css";
+@import "./components/banner.css";
+@import "./components/recommendations.css";
