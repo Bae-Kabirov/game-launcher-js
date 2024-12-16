@@ -1,0 +1,47 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: flex-end;
+  padding: 35px 50px;
+}
+.navigation__search {
+  display: grid;
+  grid-template-columns: 30px auto;
+  align-items: center;
+  gap: 14px;
+  width: 545px;
+  height: 45px;
+  border-radius: 25px;
+  background: var(--transparent-bg);
+  padding: 7px 20px;
+}
+
+.navigation__search input::placeholder {
+  color: var(--white-main);
+  opacity: 0.7;
+}
+.navigation__search input {
+  font-size: 24px;
+}
+
+.navigation__link {
+}
+.navigation__user {
+  position: relative;
+}
+.navigation__user-dropdown {
+  max-height: 0; 
+  overflow: hidden; 
+  position: absolute;
+  top: 100%;
+  width: 110px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  transition: 0.2s;
+}
+.navigation__user-dropdown.expanded {
+  max-height: 200px;
+}

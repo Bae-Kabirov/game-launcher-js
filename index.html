@@ -21,19 +21,16 @@
 
         <div class="sidebar__divider"></div>
 
+        <div class="sidebar__nav-scroll"></div>
         <nav class="sidebar__nav">
           <ul>
             <li><a class="sidebar__nav-item active" href="#">Home</a></li>
             <li><a class="sidebar__nav-item" href="#">Library</a></li>
             <li><a class="sidebar__nav-item" href="#">Store</a></li>
             <li><a class="sidebar__nav-item" href="#">Wishlist</a></li>
-          </ul>
-        </nav>
 
-        <div class="sidebar__divider"></div>
+            <div class="sidebar__divider"></div>
 
-        <nav class="sidebar__nav">
-          <ul>
             <li><a class="sidebar__nav-item" href="#">Discount</a></li>
             <li>
               <a class="sidebar__nav-item" href="#">Wallet&nbsp;| Rp.20.053</a>
@@ -46,16 +43,65 @@
           <a href="#">Friends &amp;&nbsp;Chat</a>
         </div>
       </aside>
-      <section class="page page-home">
-        <nav>
-          <search>
-            <form action="./search/">
-              <input type="search"/>
-              <button type="submit">Search</button>
-            </form>
-          </search>
-        </nav>
+      <!-- Home -->
+      <section class="page page-home" data-page="home">
+        <header class="page-navigation navigation">
+          <form class="navigation__search" action="#">
+            <img src="./images/icons/search.svg" />
+            <input type="search" placeholder="Type to search" />
+          </form>
+          <a class="navigation__link" href="#">
+            <img src="./images/icons/cart.svg" />
+          </a>
+          <a class="navigation__link" href="#">
+            <img src="./images/icons/bell.svg" />
+          </a>
+          <div class="navigation__user js-profile">
+            <img src="./images/profile-empty.png" />
+            <ul class="navigation__user-dropdown js-dropdown">
+              <li><a href="#">My Orders</a></li>
+              <li><a href="#">My Wishlist</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </header>
+      </section>
+
+      <!-- Library -->
+      <section class="page page-library" data-page="library" hidden>
+        <header class="page-navigation navigation">
+          <form class="navigation__search" action="#">
+            <img src="./images/icons/search.svg" />
+            <input type="search" placeholder="Type to search" />
+          </form>
+          <a class="navigation__link" href="#">
+            <img src="./images/icons/cart.svg" />
+          </a>
+          <a class="navigation__link" href="#">
+            <img src="./images/icons/bell.svg" />
+          </a>
+        </header>
+      </section>
+
+      <!-- Store -->
+      <section class="page page-store" data-page="store" hidden>
+        <header class="page-navigation navigation">
+          <form class="navigation__search" action="#">
+            <img src="./images/icons/search.svg" />
+            <input type="search" placeholder="Type to search" />
+          </form>
+          <a class="navigation__link" href="#">
+            <img src="./images/icons/cart.svg" />
+          </a>
+          <a class="navigation__link" href="#">
+            <img src="./images/icons/bell.svg" />
+          </a>
+        </header>
       </section>
     </main>
+
+    <!-- Scripts -->
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

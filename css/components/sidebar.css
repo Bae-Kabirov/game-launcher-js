@@ -3,6 +3,16 @@
   padding: 57px 51px 51px;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.sidebar__nav-scroll {
+  position: absolute;
+  left: 0;
+  width: 7px;
+  background-color: var(--white-main);
+  border-radius: 50px;
+  transition: 0.2s;
 }
 
 .sidebar__header {
@@ -17,7 +27,7 @@
 .sidebar__divider {
   width: 100%;
   height: 1px;
-  background-color: #ddd;
+  background-color: var(--gray-main);
 }
 
 .sidebar__nav {
@@ -31,15 +41,15 @@
 }
 
 .sidebar__nav-item {
-  color: #ddd;
+  color: var(--gray-main);
   font-size: 24px;
 }
 
 .sidebar__nav-item:hover {
-  color: #fefefe;
+  color: var(--white-main);
 }
 .sidebar__nav-item.active {
-  color: #fefefe;
+  color: var(--white-main);
 }
 
 .sidebar__footer {

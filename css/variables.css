@@ -1,0 +1,8 @@
+:root {
+  /* Colors */
+  --white-main: #fefefe;
+  --gray-main: #dddddd;
+
+  /* Backgrounds */
+  --transparent-bg: rgba(254, 254, 254, 0.3);
+}
