@@ -1,6 +1,6 @@
 .page {
   display: flex;
   flex-direction: column;
-  padding: 30px 51px;
+  padding: 121px 51px 30px;
   overflow: hidden;
 }

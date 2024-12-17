@@ -1,9 +1,11 @@
 .navigation {
+  top: 30px;
+  right: 50px;
+  position: absolute;
   display: flex;
   align-items: center;
   gap: 18px;
   justify-content: flex-end;
-  margin-bottom: 30px;
 }
 .navigation__search {
   display: grid;

@@ -1,9 +1,14 @@
 .main {
   border-radius: 35px;
-  background: #3b3c3d;
+  background-color: #3b3c3d;
+  background-image: url("../../images/backgrounds/pol.jpg");
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position: 50% 30%;
   display: grid;
   grid-template-columns: 374px auto;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  position: relative;
 }
