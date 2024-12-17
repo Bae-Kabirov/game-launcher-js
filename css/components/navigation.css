@@ -3,7 +3,7 @@
   align-items: center;
   gap: 18px;
   justify-content: flex-end;
-  padding: 35px 50px;
+  margin-bottom: 30px;
 }
 .navigation__search {
   display: grid;
@@ -31,8 +31,8 @@
   position: relative;
 }
 .navigation__user-dropdown {
-  max-height: 0; 
-  overflow: hidden; 
+  max-height: 0;
+  overflow: hidden;
   position: absolute;
   top: 100%;
   width: 110px;

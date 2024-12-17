@@ -5,3 +5,11 @@
 - HTML
 - JS
 - CSS
+
+- - -
+
+A simple project with squeezing the maximum from the minimum of the technology stack.
+Were used:
+- HTML
+- JS
+- CSS

@@ -19,6 +19,10 @@ li {
   list-style-type: none;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 /* clears the ‘X’ from Internet Explorer */
 input[type="search"]::-ms-clear {
   display: none;
